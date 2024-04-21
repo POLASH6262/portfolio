@@ -1,0 +1,73 @@
+*{  
+    margin: 0;
+    padding: 0;
+} 
+
+
+body{
+       background-color: rgb(244, 240, 234);
+       font-family: "Roboto", sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: rgb(195, 238, 224);
+    margin: 0 auto;
+    padding: 20px;
+}
+.im{
+    width: 90px;
+    height: 95px;
+    border: 3px solid rgb(243, 100, 100);
+    border-radius: 50%;
+    float: left;
+   
+}
+.title{float: left;
+padding: 30px;}
+ h1,h2,h3,h4,h5,h6{
+
+color: rgb(106, 106, 181);
+
+ }
+.contact{float: right;
+padding: 30px;}
+ .contact a{text-decoration: none;
+color:rgb(106, 106, 181);
+font-weight: bold;
+
+}
+ .contact a:hover{
+    text-decoration: underline;
+    color: blue;
+ }
+ .clear-div{
+    clear: both;
+ }
+ hr{
+    border: solid rgb(62, 20, 20) 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+ }
+ .personal-title{
+float: left;
+width: 30%;
+
+ }
+ .personal-details{float: left;width: 70%;}
+
+ .common-hr{
+    border: solid rgb(62, 20, 20) 1px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+ }
+.personal-details1{display: flex;
+justify-content: space-between;}
+
+.last{background-color: black;
+    color: wheat;}
+.foot{display: flex;
+justify-content: center;}
+.foot li{list-style: none;
+    padding-right: 60px;}
